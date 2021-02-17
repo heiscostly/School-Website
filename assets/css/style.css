@@ -1,0 +1,221 @@
+@font-face {
+	font-family: 'Segoe UI';
+	src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot');
+	src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot?#iefix') format('embedded-opentype'),
+		url('/surface/Assets/css/fonts/all/normal/segoeui.woff') format('woff'),
+		url('/surface/Assets/css/fonts/all/normal/segoeui.svg#SegoeUI') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Segoe UI Semibold';
+	src: url('/surface/Assets/css/fonts/all/semibold/seguisb.eot');
+	src: url('/surface/Assets/css/fonts/all/semibold/seguisb.eot?#iefix') format('embedded-opentype'),
+		url('/surface/Assets/css/fonts/all/semibold/seguisb.woff') format('woff'),
+		url('/surface/Assets/css/fonts/all/semibold/seguisb.svg#SegoeUISemibold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Segoe UI Bold';
+	src: url('/surface/Assets/css/fonts/all/bold/segoeuib.eot');
+	src: url('/surface/Assets/css/fonts/all/bold/segoeuib.eot?#iefix') format('eot'),
+		url('/surface/Assets/css/fonts/all/bold/segoeuib.woff') format('woff'),
+		url('/surface/Assets/css/fonts/all/bold/segoeuib.svg#SegoeUIBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Segoe UI Light';
+	src: url('/surface/Assets/css/fonts/all/light/segoeuil.eot');
+	src: url('/surface/Assets/css/fonts/all/light/segoeuil.eot?#iefix') format('embedded-opentype'),
+		url('/surface/Assets/css/fonts/all/light/segoeuil.woff') format('woff'),
+		url('/surface/Assets/css/fonts/all/light/segoeuil.svg#SegoeUILight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Segoe UI';
+	font-weight: 400;
+}
+
+.btn {
+	color: #fff !important;
+	background-color: #227093 !important;
+}
+
+.form-control {
+	background-color: transparent !important;
+	border: none !important;
+	outline: none !important;
+	border-radius: none !important;
+}
+
+.form-control:focus {
+	outline: none !important;
+	box-shadow: none !important;
+	border-color: transparent !important;
+}
+
+.input-group-text {
+	background: transparent !important;
+	border: none !important;
+	border-radius: 0px !important;
+}
+
+#search {
+	position: relative;
+	height: 60px;
+	color: #fff;
+}
+
+#search::placeholder {
+	color: lightgray;
+}
+
+.prepend-icon input {
+	padding-left: 45px;
+}
+
+.so {
+	background-color: #34ace0 !important;
+}
+
+.search-icon::before {
+	box-sizing: border-box;
+}
+
+.search-icon {
+	padding-left: 8px;
+}
+
+.me {
+	right: 20px;
+	position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+	.me {
+		right: 0px !important;
+		position: relative !important;
+	}
+}
+
+
+
+.text{
+    color: gray;
+    font-size: 14px;
+}
+
+.head{
+    font-size: 15px;
+    /* color: blue; */
+}
+
+.btn{
+    /* width: 22rem; */
+}
+
+.the-button{
+    text-align: center; 
+    width: px;  
+    height: px; 
+}
+.footer{
+    background-color: #34ace0;
+    /* height: 30vh; */
+}
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.copywrightt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+}
+
+
+.thebtn{
+    width: 5rem  !important;
+    margin-left: 5px;
+
+}
+.thesearch{
+    background: transparent ;
+}
+
+
+
+.use-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.mybtn{
+    background-color: #34ace0;
+    color: white;
+}
+
+
+.first-link{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+
+@media only screen and (max-width: 821px ){
+
+
+.use-link{
+    padding-top: 2rem;
+}
+
+
+.copywrightt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello{
+    padding-top: 2rem;
+}
+
+.copywrightt{
+    text-align: center;
+}
+
+.hey{
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+.thelinks{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
